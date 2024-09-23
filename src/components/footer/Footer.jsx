@@ -3,7 +3,7 @@ import logofooterimages from '../header/navbarimages/Group 48095561.svg';
 
 const Footer = () => {
     return (
-        <div className="musicsectionbackground mt-[40px] sm:mt-[60px] md:mt-[80px] lg:mt-[100px] xl:mt-[120px] 2xl:mt-[142px] relative">
+        <div className="musicsectionbackground pt-[40px] sm:pt-[60px] md:pt-[80px] lg:pt-[100px] xl:pt-[120px] 2xl:pt-[142px] relative">
             <div className="container mx-auto">
             <div className="mx-auto container text-center ">
             <div className="text-center md:text-left">
