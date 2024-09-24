@@ -13,7 +13,7 @@ const HeroArea = () => {
                     <div className="flex justify-center items-center gap-1 sm:gap-2 md:gap-3 lg:gap-4 xl:gap-5 2xl:gap-6 mb-[44px] sm:mb-[70px] md:mb-[88px] lg:mb-[108px] xl:mb-[138px] 2xl:mb-[168px]">
                         <button className=" text-[#fff] text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] xl:text-[23px] 2xl:text-[24px] font-semibold py-[10px] sm:py-[12px] md:py-[15px] lg:py-[17px] xl:py-[18px] 2xl:py-[20px] px-[22px] sm:px-[25px] md:px-[30px] lg:px-[35px] xl:px-[40px] 2xl:px-[50px] bg-[#0554F1] rounded-[6px] lg:rounded-[8px] xl:rounded-[10px] manrope">Get Started</button>
                         {/* button no too */}
-                        <button className=" text-[#fff] text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] xl:text-[23px] 2xl:text-[24px] font-semibold py-[10px] sm:py-[12px] md:py-[15px] lg:py-[17px] xl:py-[18px] 2xl:py-[20px] px-[22px] sm:px-[25px] md:px-[30px] lg:px-[35px] xl:px-[40px] 2xl:px-[50px] rounded-[6px] lg:rounded-[8px] xl:rounded-[10px] herosectionbutton2 manrope">Get Started</button>
+                        <button className=" text-[#fff] text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] xl:text-[23px] 2xl:text-[24px] font-semibold py-[10px] sm:py-[12px] md:py-[15px] lg:py-[17px] xl:py-[18px] 2xl:py-[20px] px-[22px] sm:px-[25px] md:px-[30px] lg:px-[35px] xl:px-[40px] 2xl:px-[50px] rounded-[6px] lg:rounded-[8px] xl:rounded-[10px] herosectionbutton2 manrope">Learn More</button>
                     </div>
                 </div>
                 <div className="relative">
