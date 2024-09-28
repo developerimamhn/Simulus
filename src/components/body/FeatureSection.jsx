@@ -155,7 +155,7 @@ const FeatureSection = () => {
           </section>
     
           {/* Section: Capture and Optimize */}
-          <Sliderimages/>
+          
         </div>
         </div>
       );

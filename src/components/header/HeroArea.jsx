@@ -1,12 +1,14 @@
 import groupimages from "./heroareaimages/Mask group.svg";
 import rectangle from "./heroareaimages/Rectangle 41.svg";
 import heroareaplay from "./heroareaimages/Frame 42.svg";
+import TextAnimation from "../body/ScrollTextAnimation ";
 
 const HeroArea = () => {
     return (
         <div className="container  mx-auto ">
             <div className="container mx-auto  relative  ">
                 <img src={groupimages} className="absolute top-0 z-0 pb-16 pt-[80px] lg:pt-[93px] xl:pt-[113px] 2xl:pt-[133px]" alt="" />
+                <TextAnimation animationClass="zoom-in">
                 <div className="flex justify-center items-center flex-col relative z-10 pt-[120px] sm:pt-[140px] md:pt-[160px] lg:pt-[180px] xl:pt-[200px] 2xl:pt-[273px]">
                     <h2 className="herosectionh21 manrope text-[30px] sm:text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] mb-[5px] lg:mb-[9px] ">Welcome to The Future of <h2 className="herosectionh22 manrope">Content Creation</h2></h2>
                     <p className="herosectionp1 manrope text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] xl:text-[22xp] 2xl:text-[24px] mb-3 sm:mb-4 md:mb-5 lg:mb-6 xl:mb-7">Redefining Enterprise Content with Digital Twin Technology</p>
@@ -16,11 +18,15 @@ const HeroArea = () => {
                         <button className=" text-[#fff] text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] xl:text-[23px] 2xl:text-[24px] font-semibold py-[10px] sm:py-[12px] md:py-[15px] lg:py-[17px] xl:py-[18px] 2xl:py-[20px] px-[22px] sm:px-[25px] md:px-[30px] lg:px-[35px] xl:px-[40px] 2xl:px-[50px] rounded-[6px] lg:rounded-[8px] xl:rounded-[10px] herosectionbutton2 manrope">Learn More</button>
                     </div>
                 </div>
+                </TextAnimation>
+                <TextAnimation animationClass="zoom-in">
                 <div className="relative">
                 <img src={rectangle} className="w-full px-[0] sm:px-[63px] md:px-[83px] lg:px-[93px] xl:px-[103px] 2xl:px-[143px]" alt="" />
                 <img src={heroareaplay} className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]" alt="" />
                 </div>
+                </TextAnimation>
             </div>
+            {/* <TextAnimation animationClass="zoom-in"> */}
             <div className="container mx-auto mt-[43px] sm:mt-[55px] md:mt-[65px] lg:mt-[80px] xl:mt-[107px] 2xl:mt-[127px]">
                 <h3 className="text-[20px] sm:text-[22px] md:text-[24px] lg:text-[26px] xl:text-[28px] 2xl:text-[32px] logoheadingarea manrope">Trusted by Professionals and Teams</h3>
                 <div className="flex justify-between items-center overflow-hidden py-[30px] sm:py-[32px] md:py-[38px] lg:py-[44px] xl:py-[50px] 2xl:py-[60px] gap-[40px] lg:gap-auto w-[100%] m-auto border-b-[1px] border-[#ffffff1a]">
@@ -80,6 +86,7 @@ const HeroArea = () => {
 </svg>
                     </a>
                 </div>
+               
             </div>
         </div>
         </div>

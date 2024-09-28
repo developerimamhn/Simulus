@@ -16,7 +16,7 @@ const FeatureStokeone = () => {
       <stop offset="1" stop-color="#243BFF" stop-opacity="0"/>
     </linearGradient>
   </defs>
-</svg>
+            </svg>
         </div>
     );
 };

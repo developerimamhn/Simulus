@@ -41,7 +41,7 @@ const DropdownSection = () => {
       <stop offset="1" stop-color="#243BFF" stop-opacity="0"/>
     </linearGradient>
   </defs>
-</svg>
+                        </svg>
                         </div>
                         <h2 className="text-[#fff] manrope text-[20px] sm:text-[25px] md:text-[30px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] font-extrabold leading-[125%]">
                             Frequently Asked <br className="hidden sm:block"/> Questions (FAQs)
