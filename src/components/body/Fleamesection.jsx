@@ -84,7 +84,11 @@ const Fleamesection = () => {
             </div>
                 <div className="flex-1 relative">
                     <img className='w-full' src={captioimagesgame} alt="" />
-                    <img src={playbuttonvideo} className="absolute inset-0 m-auto w-[15%]" alt="" />
+                    <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] playbutton p-[6px] sm:p-[8px] md:p-[12px] lg:p-[16] xl:p-[20px] 2xl:p-[24px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-[8] sm:w-[12px] md:w-[18px] lg:w-[22px] xl:w-[26px] 2xl:w-[32px]" viewBox="0 0 32 32" fill="none">
+                    <path d="M28.5447 12.4702C31.3739 14.0087 31.3739 17.9915 28.5447 19.53L11.4621 28.8194C8.71239 30.3147 5.33325 28.3685 5.33325 25.2896L5.33325 6.71061C5.33325 3.63166 8.71239 1.68545 11.4621 3.18072L28.5447 12.4702Z" fill="white"/>
+                    </svg>
+                </div>
                     
                 </div>
                 <div className="flex-1">
@@ -144,7 +148,11 @@ const Fleamesection = () => {
                 <div className="flex-1 flex flex-col justify-end">
                 <div className=" relative ddddddsss">
                     <img className='w-full' src={captioimagesgametwo} alt="" />
-                    <img src={playbuttonvideo} className="absolute inset-0 m-auto w-[15%]" alt="" />
+                    <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] playbutton p-[6px] sm:p-[8px] md:p-[12px] lg:p-[16] xl:p-[20px] 2xl:p-[24px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-[8] sm:w-[12px] md:w-[18px] lg:w-[22px] xl:w-[26px] 2xl:w-[32px]" viewBox="0 0 32 32" fill="none">
+                    <path d="M28.5447 12.4702C31.3739 14.0087 31.3739 17.9915 28.5447 19.53L11.4621 28.8194C8.71239 30.3147 5.33325 28.3685 5.33325 25.2896L5.33325 6.71061C5.33325 3.63166 8.71239 1.68545 11.4621 3.18072L28.5447 12.4702Z" fill="white"/>
+                    </svg>
+                </div>
                 </div>
                 </div>
             </div>
@@ -213,7 +221,11 @@ const Fleamesection = () => {
                 <div className="flex-1 flex flex-col justify-end">
                 <div className=" relative ddddddsss">
                     <img className='w-full' src={captioimagesgamethree} alt="" />
-                    <img src={playbuttonvideo} className="absolute inset-0 m-auto w-[15%]" alt="" />
+                    <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] playbutton p-[6px] sm:p-[8px] md:p-[12px] lg:p-[16] xl:p-[20px] 2xl:p-[24px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-[8] sm:w-[12px] md:w-[18px] lg:w-[22px] xl:w-[26px] 2xl:w-[32px]" viewBox="0 0 32 32" fill="none">
+                    <path d="M28.5447 12.4702C31.3739 14.0087 31.3739 17.9915 28.5447 19.53L11.4621 28.8194C8.71239 30.3147 5.33325 28.3685 5.33325 25.2896L5.33325 6.71061C5.33325 3.63166 8.71239 1.68545 11.4621 3.18072L28.5447 12.4702Z" fill="white"/>
+                    </svg>
+                </div>
                 </div>
                 </div>
             </div>

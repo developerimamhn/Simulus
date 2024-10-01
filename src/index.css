@@ -9,7 +9,7 @@
   @apply bg-[#040712]
 }
 .manubar-con{
-  @apply text-[13px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] lg:font-medium leading-[120%] manrope text-[#ffffffb3]
+  @apply text-[13px] sm:text-[12px] md:text-[14px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px] lg:font-medium leading-[120%] manrope text-[#ffffffb3] hover:text-[#ffffffc9] transition-all duration-300
 }
 .btnone{
   @apply py-[11px] sm:py-[10px] md:py-[10px] lg:py-[14px] xl:py-[15px] 2xl:py-[16px] px-[22px] sm:px-[20px] md:px-[20px] lg:px-[28px] xl:px-[30px] 2xl:px-[32px] bg-[#0554F1] rounded-[6px] lg:rounded-[8px] xl:rounded-[10px] text-[14px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[17px] 2xl:text-[18px]
@@ -80,9 +80,13 @@
   }
 
   .herosectionbutton2{
-    border: 1px solid rgba(119, 160, 242, 0.16);
+    border: 1px solid rgba(119, 160, 242, 0.10);
     background: rgba(119, 160, 242, 0.10);
     backdrop-filter: blur(100px);
+  }
+
+  .herosectionbutton2:hover{
+    background: rgba(119, 160, 242, 0.15);
   }
 
   .logoheadingarea{
@@ -121,10 +125,26 @@
 
   .featreSection1{
     border-radius: 16px;
-    border: 1.2px solid #282D35;
+    /* border: 1.2px solid #282D35; */
     background: linear-gradient(0deg, rgba(102, 106, 128, 0.10) 0%, rgba(37, 38, 46, 0.10) 100%);
     backdrop-filter: blur(47px);
+    transition: ease-in-out .2s;
+    border-bottom: 5px solid transparent;
+    border-left: 1.2px solid #282D35;
+    border-top: 1.2px solid #282D35;
+    border-right: 1.2px solid #282D35;
+    position: relative;
   }
+  
+  .featreSection1:hover {
+    border-bottom: 5px solid #0554F1;
+    border-left: 1.2px solid transparent;
+    border-top: 1.2px solid transparent;
+    border-right: 1.2px solid transparent;
+  }
+
+  
+  
 
   .featreSectionheader{
     color: #FFF;
@@ -174,8 +194,13 @@
   .borderimagesliner{
     border: 1px solid #282D35;
     background: linear-gradient(0deg, rgba(122, 127, 153, 0.20) 0%, rgba(37, 38, 46, 0.14) 51.69%);
+    transition: ease-in-out 0.2s;
+  }
+
+  .borderimagesliner:hover{
     backdrop-filter: blur(47px);
   }
+
   .corportalbacckground{
     border: 1.352px solid #282D35;
     background: linear-gradient(0deg, rgba(122, 127, 153, 0.10) 0%, rgba(37, 38, 46, 0.07) 51.69%);
@@ -249,6 +274,14 @@
     opacity: 1;
     transform: scale(1);
     transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  .playbutton{
+    border-radius: 52px;
+    border: 8px solid rgba(255, 255, 255, 0.40);
+    background: var(--Blue-02, #0554F1);
+    box-shadow: 0px 4px 44.5px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(12px);
+    cursor: pointer;
   }
   
 }

@@ -2,6 +2,7 @@ import groupimages from "./heroareaimages/Mask group.svg";
 import rectangle from "./heroareaimages/Rectangle 41.svg";
 import heroareaplay from "./heroareaimages/Frame 42.svg";
 import TextAnimation from "../body/ScrollTextAnimation ";
+import { PiPlayFill } from "react-icons/pi";
 
 const HeroArea = () => {
     return (
@@ -13,16 +14,39 @@ const HeroArea = () => {
                     <h2 className="herosectionh21 manrope text-[30px] sm:text-[40px] md:text-[50px] lg:text-[60px] xl:text-[70px] 2xl:text-[80px] mb-[5px] lg:mb-[9px] ">Welcome to The Future of <h2 className="herosectionh22 manrope">Content Creation</h2></h2>
                     <p className="herosectionp1 manrope text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] xl:text-[22xp] 2xl:text-[24px] mb-3 sm:mb-4 md:mb-5 lg:mb-6 xl:mb-7">Redefining Enterprise Content with Digital Twin Technology</p>
                     <div className="flex justify-center items-center gap-1 sm:gap-2 md:gap-3 lg:gap-4 xl:gap-5 2xl:gap-6 mb-[44px] sm:mb-[70px] md:mb-[88px] lg:mb-[108px] xl:mb-[138px] 2xl:mb-[168px]">
-                        <button className=" text-[#fff] text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] xl:text-[23px] 2xl:text-[24px] font-semibold py-[10px] sm:py-[12px] md:py-[15px] lg:py-[17px] xl:py-[18px] 2xl:py-[20px] px-[22px] sm:px-[25px] md:px-[30px] lg:px-[35px] xl:px-[40px] 2xl:px-[50px] bg-[#0554F1] rounded-[6px] lg:rounded-[8px] xl:rounded-[10px] manrope">Get Started</button>
+                        <button className="group relative flex justify-center items-center gap-1 md:gap-[10px] text-[#fff] text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] xl:text-[23px] 2xl:text-[24px] font-semibold py-[10px] sm:py-[12px] md:py-[15px] lg:py-[17px] xl:py-[18px] 2xl:py-[20px] px-[22px] sm:px-[25px] md:px-[30px] lg:px-[35px] xl:px-[40px] 2xl:px-[50px] hover:bg-[#053cf1] bg-[#0554F1] rounded-[6px] lg:rounded-[8px] xl:rounded-[10px] manrope  transition-all duration-300">Get Started
+                        <div className="">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="w-4 xl:w-5 2xl:w-6"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                            >
+                                <path
+                                fillRule="evenodd"
+                                clipRule="evenodd"
+                                d="M13.8692 4.27662C14.238 3.90779 14.836 3.90779 15.2049 4.27662L22.7604 11.8322C23.1292 12.201 23.1292 12.799 22.7604 13.1678L15.2049 20.7234C14.836 21.0922 14.238 21.0922 13.8692 20.7234C13.5004 20.3545 13.5004 19.7566 13.8692 19.3877L19.8125 13.4444H1.94444C1.42284 13.4444 1 13.0216 1 12.5C1 11.9784 1.42284 11.5556 1.94444 11.5556H19.8125L13.8692 5.61227C13.5004 5.24344 13.5004 4.64545 13.8692 4.27662Z"
+                                fill="white"
+                                />
+                            </svg>
+                            </div>
+                        </button>
                         {/* button no too */}
-                        <button className=" text-[#fff] text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] xl:text-[23px] 2xl:text-[24px] font-semibold py-[10px] sm:py-[12px] md:py-[15px] lg:py-[17px] xl:py-[18px] 2xl:py-[20px] px-[22px] sm:px-[25px] md:px-[30px] lg:px-[35px] xl:px-[40px] 2xl:px-[50px] rounded-[6px] lg:rounded-[8px] xl:rounded-[10px] herosectionbutton2 manrope">Learn More</button>
+                        <button className=" text-[#fff] text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] xl:text-[23px] 2xl:text-[24px] font-semibold py-[10px] sm:py-[12px] md:py-[15px] lg:py-[17px] xl:py-[18px] 2xl:py-[20px] px-[22px] sm:px-[25px] md:px-[30px] lg:px-[35px] xl:px-[40px] 2xl:px-[50px] rounded-[6px] lg:rounded-[8px] xl:rounded-[10px] herosectionbutton2 manrope transition-all duration-300 hover:bg-[rgba(119, 160, 242, 0.15)]">Learn More</button>
                     </div>
                 </div>
                 </TextAnimation>
                 <TextAnimation animationClass="zoom-in">
                 <div className="relative">
                 <img src={rectangle} className="w-full px-[0] sm:px-[63px] md:px-[83px] lg:px-[93px] xl:px-[103px] 2xl:px-[143px]" alt="" />
-                <img src={heroareaplay} className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]" alt="" />
+                {/* <img src={heroareaplay} className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]" alt="" /> */}
+                <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] playbutton p-[6px] sm:p-[8px] md:p-[12px] lg:p-[16] xl:p-[20px] 2xl:p-[24px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-[8] sm:w-[12px] md:w-[18px] lg:w-[22px] xl:w-[26px] 2xl:w-[32px]" viewBox="0 0 32 32" fill="none">
+                    <path d="M28.5447 12.4702C31.3739 14.0087 31.3739 17.9915 28.5447 19.53L11.4621 28.8194C8.71239 30.3147 5.33325 28.3685 5.33325 25.2896L5.33325 6.71061C5.33325 3.63166 8.71239 1.68545 11.4621 3.18072L28.5447 12.4702Z" fill="white"/>
+                    </svg>
+                </div>
                 </div>
                 </TextAnimation>
             </div>

@@ -6,12 +6,12 @@ const MusicSection = () => {
         <div className=" relative">
             <div className="container mx-auto relative">
             <div className="absolute  left-0 top-0">
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-full md:w-[100vh] lg:w-screen 2xl:w-[1482px]" viewBox="0 0 1482 951" fill="none">
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-full md:w-[100vh] lg:w-screen 2xl:w-[1482px] rounded-[6px] lg:rounded-[8px] xl:rounded-[10px]" viewBox="0 0 1482 951" fill="none">
     <g filter="url(#filter0_f_2257_141)">
         <path d="M1213.8 1119.73C791.697 505.609 -194.847 165.719 24.2989 -81.3247" stroke="url(#paint0_linear_2257_141)" stroke-width="88"/>
     </g>
     <defs>
-        <filter id="filter0_f_2257_141" x="-361.263" y="-420.723" width="1921.52" height="1875.58" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <filter id="filter0_f_2257_141" x="-361.263"  y="-420.723" width="1921.52" height="1875.58" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
         <feFlood flood-opacity="0" result="BackgroundImageFix"/>
         <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
         <feGaussianBlur stdDeviation="155.1" result="effect1_foregroundBlur_2257_141"/>
@@ -47,9 +47,27 @@ const MusicSection = () => {
                     <h2 className="herosectionh21 manrope text-[25px] sm:text-[30px] md:text-[35px] lg:text-[40px] xl:text-[50px] 2xl:text-[60px] mb-[5px] lg:mb-[9px] xl:mb-[13px] 2xl:mb-[16px]">Still Have Questions?</h2>
                     <p className="herosectionp1 manrope text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] xl:text-[22xp] 2xl:text-[24px] mb-2 sm:mb-3 md:mb-4 lg:mb-5 xl:mb-6">Digital Twin technology accelerates content creation, enabling enterprises to <br /> deliver content faster than ever before</p>
                     <div className="flex justify-center items-center gap-1 sm:gap-2 md:gap-3 lg:gap-4 xl:gap-5 2xl:gap-6 mb-[20px] sm:mb-[55px] md:mb-[60px] lg:mb-[70px] xl:mb-[80px] 2xl:mb-[87px]">
-                        <button className=" text-[#fff] text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] xl:text-[23px] 2xl:text-[24px] font-semibold py-[10px] sm:py-[12px] md:py-[15px] lg:py-[17px] xl:py-[18px] 2xl:py-[20px] px-[22px] sm:px-[25px] md:px-[30px] lg:px-[35px] xl:px-[40px] 2xl:px-[50px] bg-[#0554F1] rounded-[6px] lg:rounded-[8px] xl:rounded-[10px] manrope">Get Started</button>
+                        <button className="flex justify-center items-center gap-1 md:gap-[10px] text-[#fff] text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] xl:text-[23px] 2xl:text-[24px] font-semibold py-[10px] sm:py-[12px] md:py-[15px] lg:py-[17px] xl:py-[18px] 2xl:py-[20px] px-[22px] sm:px-[25px] md:px-[30px] lg:px-[35px] xl:px-[40px] 2xl:px-[50px] bg-[#0554F1] hover:bg-[#053cf1] rounded-[6px] lg:rounded-[8px] xl:rounded-[10px] manrope transition-all duration-300">Get Started
+                        <div className="">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="w-4 xl:w-5 2xl:w-6 rounded-[6px] lg:rounded-[8px] xl:rounded-[10px]"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                            >
+                                <path
+                                fillRule="evenodd"
+                                clipRule="evenodd"
+                                d="M13.8692 4.27662C14.238 3.90779 14.836 3.90779 15.2049 4.27662L22.7604 11.8322C23.1292 12.201 23.1292 12.799 22.7604 13.1678L15.2049 20.7234C14.836 21.0922 14.238 21.0922 13.8692 20.7234C13.5004 20.3545 13.5004 19.7566 13.8692 19.3877L19.8125 13.4444H1.94444C1.42284 13.4444 1 13.0216 1 12.5C1 11.9784 1.42284 11.5556 1.94444 11.5556H19.8125L13.8692 5.61227C13.5004 5.24344 13.5004 4.64545 13.8692 4.27662Z"
+                                fill="white"
+                                />
+                            </svg>
+                            </div>
+                        </button>
                         {/* button no too */}
-                        <button className=" text-[#fff] text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] xl:text-[23px] 2xl:text-[24px] font-semibold py-[10px] sm:py-[12px] md:py-[15px] lg:py-[17px] xl:py-[18px] 2xl:py-[20px] px-[22px] sm:px-[25px] md:px-[30px] lg:px-[35px] xl:px-[40px] 2xl:px-[50px] rounded-[6px] lg:rounded-[8px] xl:rounded-[10px] herosectionbutton2 manrope">Get Started</button>
+                        <button className=" text-[#fff] text-[16px] sm:text-[17px] md:text-[18px] lg:text-[20px] xl:text-[23px] 2xl:text-[24px] font-semibold py-[10px] sm:py-[12px] md:py-[15px] lg:py-[17px] xl:py-[18px] 2xl:py-[20px] px-[22px] sm:px-[25px] md:px-[30px] lg:px-[35px] xl:px-[40px] 2xl:px-[50px] rounded-[6px] lg:rounded-[8px] xl:rounded-[10px] herosectionbutton2 manrope transition-all duration-300">Learn More</button>
                         
                     </div>
                         <img src={musicsectin} alt="" />

@@ -48,7 +48,7 @@ const Navbar = () => {
             <div className="">
             <nav className={`${bgColor} ${isScrolled ? 'animate-fade-in' : 'animate-fade-out'} fixed top-0 left-0 right-0 z-50 py-[18px] sm:py-[18px] md:py-[20px] lg:py-[22px] xl:py-[25px] 2xl:py-[28px] transition-all duration-500 ease-in-out`}>
                     <div className='container mx-auto flex items-center flex-row justify-between sm:gap-[25px] md:gap-[30px] lg:gap-[40px] xl:gap-[50px] 2xl:gap-[62px] '>
-                        <div className="">
+                        <div className="cursor-pointer">
                             <img className="sm:w-[188px] md:w-[198px] lg:w-[208px] xl:w-[218px] 2xl:w-[228px] hidden sm:block" src={logoimages} alt="logoimages" />
                             <img className='block sm:hidden w-[44px]' src={logoimagesmeni} alt="" />
                         </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
                             </ul>
                             <div className='text-[#fff] sm:flex-row flex-col flex justify-start items-start sm:items-center gap-[24px] sm:gap-[28px] md:gap-[33px] lg:gap-[40px] xl:gap-[44px] 2xl:gap-[40px] mt-[18px] sm:mt-0'>
                                 <Link className='manubar-con' to='/Contact'>Contact</Link>
-                                <Button text1="Get Started" className="text-[#fff] btnone w-full sm:w-auto mt-2 sm:mt-0"/>
+                                <Button text1="Get Started" className="text-[#fff] btnone w-full sm:w-auto mt-2 sm:mt-0 hover:bg-[#053cf1] transition-all duration-300"/>
                             </div>
                         </div>
                     </div>
